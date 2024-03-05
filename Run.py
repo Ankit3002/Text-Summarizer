@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-pipe = pipeline('summarization', model='LLumo/content/pegasus-model')
+pipe = pipeline('summarization', model='/content/pegasus-model')
 custom_dialogue="""
 Laxmi Kant: what work you planning to give Tom?
 Juli: i was hoping to send him on a business trip first.
