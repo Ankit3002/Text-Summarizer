@@ -1,7 +1,15 @@
 # In the notebook over here ...
 # git clone https://github.com/Ankit3002/Text-Summarizer.git
 # Text-Summarizer/script.sh
-echo ankit
+echo -------- Loading Please wait ----------
+echo ---------------------------------------
+echo ---------------------------------------
+
+# clone the repository over here ...
+pip install gdown
+gdown --id 1pjs47ye8j3YtMnw0bZi_nX_0d1HHqzzo
+unzip LLumo.zip
+python Run.py
 # # code for running the code ...
 
 # # code for downloading the zip model over here
