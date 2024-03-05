@@ -3,14 +3,6 @@ from transformers import pipeline
 class TextSummarizerUI:
     pipe = pipeline('summarization', model = 't5-base')
       
-    def predict_text(input_text):
-      val = pipe(input_text)
-      return val[0]['summar_text']
-
-    def run_prediction(input_text):
-      output_text = predict_text(input_text)
-      display(HTML(f'<p id="output-summary">{output_text}</p>'))
-
     def __init__(self):
         self.html_code = """
         <!DOCTYPE html>
