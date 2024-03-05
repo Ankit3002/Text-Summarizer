@@ -10,8 +10,8 @@ pip install gdown
 pip install transformers[sentencepiece] datasets sacrebleu rouge_score py7zr -q
 
 gdown --id 1pjs47ye8j3YtMnw0bZi_nX_0d1HHqzzo
-unzip LLumo.zip
-python Run.py
+unzip /content/LLumo.zip
+python /content/Text-Summarizer/Run.py
 # # code for running the code ...
 
 # # code for downloading the zip model over here
