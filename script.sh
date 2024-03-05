@@ -8,6 +8,13 @@ echo ---------------------------------------
 # clone the repository over here ...
 pip install gdown
 pip install transformers[sentencepiece] datasets sacrebleu rouge_score py7zr -q
+pip install transformers[torch] -U
+pip install accelerate -U
+pip install torch
+pip install transformers
+pip install requests
+pip install tqdm
+
 
 gdown --id 1pjs47ye8j3YtMnw0bZi_nX_0d1HHqzzo
 unzip /content/LLumo.zip
