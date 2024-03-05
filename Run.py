@@ -1,39 +1,4 @@
-from transformers import pipeline, set_seed
-
-import matplotlib.pyplot as plt
-from datasets import load_dataset
-import pandas as pd
-from datasets import load_dataset, load_metric
-
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-
-import nltk
-from nltk.tokenize import sent_tokenize
-
-from tqdm import tqdm
-import torch
-
-nltk.download("punkt")
-
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-from transformers import DataCollatorForSeq2Seq
-from transformers import TrainingArguments, Trainer
-from transformers import pipeline, set_seed
-
-import matplotlib.pyplot as plt
-from datasets import load_dataset
-import pandas as pd
-from datasets import load_dataset, load_metric
-
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-
-import nltk
-from nltk.tokenize import sent_tokenize
-
-from tqdm import tqdm
-import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-
+from tranformers import pipeline
 pipe = pipeline('summarization', model='/content/pegasus-model')
 custom_dialogue="""
 Laxmi Kant: what work you planning to give Tom?
