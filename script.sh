@@ -16,8 +16,9 @@ pip install requests
 pip install tqdm
 
 
-gdown --id 1pjs47ye8j3YtMnw0bZi_nX_0d1HHqzzo
-unzip /content/LLumo.zip
+# gdown --id 1pjs47ye8j3YtMnw0bZi_nX_0d1HHqzzo
+# unzip /content/LLumo.zip
+python3 start.py
 # python3 /content/Text-Summarizer/Run.py
 # # code for running the code ...
 
